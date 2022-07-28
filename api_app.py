@@ -18,6 +18,7 @@ if json_status == 200:
     print("IP Address:      " + str(json_data["ip"]))
     print("Version:         " + str(json_data["version"]))
     print("City:            " + str(json_data["city"]))
+    print("Timezone:        " + str(json_data["timezone"]))
     print("Region:          " + str(json_data["region"]))
     print("Country name:    " + str(json_data["country_name"]))
     print("Country code:    " + str(json_data["country_code"]))
