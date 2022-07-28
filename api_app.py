@@ -1,0 +1,37 @@
+from urllib import response
+import requests
+
+api_url = "https://ipapi.co/json/"
+
+
+response = requests.get(api_url)
+json_data = response.json()
+json_status = response.status_code
+
+if json_status == 200:
+    print("\n****************************************************************")
+    print("API reponse")
+    print("API status code: " + str(json_status) +
+          " = A successful route call.")
+    print("****************************************************************\n")
+    print("============ Datos de dirección IP ===========")
+    print("IP Address:      " + str(json_data["ip"]))
+    print("Version:         " + str(json_data["version"]))
+    print("City:            " + str(json_data["city"]))
+    print("Region:          " + str(json_data["region"]))
+    print("Country name:    " + str(json_data["country_name"]))
+    print("Country code:    " + str(json_data["country_code"]))
+    print("Country capital: " + str(json_data["country_capital"]))
+    print("ISP:             " + str(json_data["org"]))
+    print("=============================================")
+
+elif json_status == 429:
+    print("\n****************************************************************")
+    print("Status Code: " + str(json_status) +
+          "; Too many requests. " + str(json_data["reason"]) + ". Wait some time to make another request.\n" + str(json_data["message"]))
+    print("****************************************************************\n")
+else:
+    print("\n************************************************************************")
+    print("Status Code: " + str(json_status) + "; Refer to:")
+    print("https://ipapi.co/api/" + str(json_data["message"]))
+    print("************************************************************************\n")
