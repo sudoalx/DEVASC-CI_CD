@@ -25,7 +25,7 @@ if json_status == 200:
     print("ISP:             " + str(json_data["org"]))
     print("=============================================")
 
-elif json_status 
+elif json_status == 429:
     print("\n****************************************************************")
     print("Status Code: " + str(json_status) +
           "; Too many requests. " + str(json_data["reason"]) + ". Wait some time to make another request.\n" + str(json_data["message"]))
