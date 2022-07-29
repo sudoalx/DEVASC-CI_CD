@@ -18,7 +18,6 @@ if json_status == 200:
     print("IP Address:      " + str(json_data["ip"]))
     print("Version:         " + str(json_data["version"]))
     print("City:            " + str(json_data["city"]))
-    print("Timezone:        " + str(json_data["timezone"]))
     print("Region:          " + str(json_data["region"]))
     print("Country name:    " + str(json_data["country_name"]))
     print("Country code:    " + str(json_data["country_code"]))
@@ -31,8 +30,11 @@ elif json_status == 429:
     print("Status Code: " + str(json_status) +
           "; Too many requests. " + str(json_data["reason"]) + ". Wait some time to make another request.\n" + str(json_data["message"]))
     print("****************************************************************\n")
+    raise ValueError('Too many requests. ' +
+                     str(json_data["reason"]) + '. Wait some time to make another request.')
 else:
     print("\n************************************************************************")
     print("Status Code: " + str(json_status) + "; Refer to:")
     print("https://ipapi.co/api/" + str(json_data["message"]))
     print("************************************************************************\n")
+    raise ValueError('Refer to: https://ipapi.co/api/')
