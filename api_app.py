@@ -22,6 +22,7 @@ if json_status == 200:
     print("Country name:    " + str(json_data["country_name"]))
     print("Country code:    " + str(json_data["country_code"]))
     print("Country capital: " + str(json_data["country_capital"]))
+    print("Languages:       " + str(json_data["languages"]))
     print("ISP:             " + str(json_data["org"]))
     print("=============================================")
 
