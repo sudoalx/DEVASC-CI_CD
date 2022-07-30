@@ -31,7 +31,7 @@ if json_status == 200:
     print("ISP:                 " + str(json_data["org"]))
     print("Country calling code:" + str(json_data["country_calling_code"]))
     print("Currency name:       " + str(json_data["currency_name"]))
-    print("ASN:                 " + str(json_data["asnm"]))
+    print("ASN:                 " + str(json_data["asn"]))
     print("=============================================")
 
 elif json_status == 429:
