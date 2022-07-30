@@ -29,6 +29,8 @@ if json_status == 200:
     print("Country area:        " + str(json_data["country_area"]))
     print("Country population:  " + str(json_data["country_population"]))
     print("ISP:                 " + str(json_data["org"]))
+    print("Country calling code:    " + str(json_data["country_calling_code"]))
+    print("Peso:    " + str(json_data["peso"]))
     print("=============================================")
 
 elif json_status == 429:
