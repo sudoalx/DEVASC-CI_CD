@@ -1,4 +1,4 @@
-autopep8==1.7.0
+autopep8==2.0.1
 Brlapi==0.8.4
 certifi==2020.12.5
 chardet==4.0.0
