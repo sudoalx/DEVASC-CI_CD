@@ -21,7 +21,7 @@ pycups==2.0.1
 pycurl==7.45.1
 PyGObject==3.42.2
 pylibacl==0.6.0
-pyparsing==3.0.7
+pyparsing==3.0.9
 PyQt5==5.15.9
 PyQt5-sip==12.11.1
 PySimpleSOAP==1.16.2
