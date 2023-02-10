@@ -37,6 +37,6 @@ six==1.16.0
 toml==0.10.2
 tornado==6.2
 unattended-upgrades==0.1
-urllib3==1.26.9
+urllib3==1.26.14
 vboxapi==1.0
 xdg==5
