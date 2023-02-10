@@ -25,7 +25,7 @@ pyparsing==3.0.7
 PyQt5==5.15.9
 PyQt5-sip==12.11.1
 PySimpleSOAP==1.16.2
-pysmbc==1.0.23
+pysmbc==1.0.25.1
 python-apt==2.3.0+b2
 python-debian==0.1.46
 python-debianbts==3.2.3
