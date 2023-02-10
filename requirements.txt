@@ -18,7 +18,7 @@ louis==3.22.0
 pycairo==1.20.1
 pycodestyle==2.8.0
 pycups==2.0.1
-pycurl==7.45.1
+pycurl==7.45.2
 PyGObject==3.42.2
 pylibacl==0.6.0
 pyparsing==3.0.7
