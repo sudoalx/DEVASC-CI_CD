@@ -30,7 +30,7 @@ python-apt==2.3.0+b2
 python-debian==0.1.49
 python-debianbts==3.2.3
 pyxattr==0.8.0
-pyxdg==0.27
+pyxdg==0.28
 reportbug==11.5.0
 requests==2.27.1
 six==1.16.0
