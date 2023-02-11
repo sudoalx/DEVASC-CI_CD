@@ -16,7 +16,7 @@ idna==3.4
 libvirt-python==8.10.0
 louis==3.22.0
 pycairo==1.23.0
-pycodestyle==2.8.0
+pycodestyle==2.10.0
 pycups==2.0.1
 pycurl==7.45.2
 PyGObject==3.42.2
