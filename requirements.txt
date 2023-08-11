@@ -35,7 +35,7 @@ reportbug==11.5.0
 requests==2.28.2
 six==1.16.0
 toml==0.10.2
-tornado==6.2
+tornado==6.3.3
 unattended-upgrades==0.1
 urllib3==1.26.14
 vboxapi==1.0
