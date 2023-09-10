@@ -19,7 +19,7 @@ pycairo==1.23.0
 pycodestyle==2.10.0
 pycups==2.0.1
 pycurl==7.45.2
-PyGObject==3.42.2
+PyGObject==3.46.0
 pylibacl==0.6.0
 pyparsing==3.0.9
 PyQt5==5.15.9
