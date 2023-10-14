@@ -23,7 +23,7 @@ PyGObject==3.42.2
 pylibacl==0.6.0
 pyparsing==3.0.9
 PyQt5==5.15.9
-PyQt5-sip==12.11.1
+PyQt5-sip==12.13.0
 PySimpleSOAP==1.16.2
 pysmbc==1.0.25.1
 python-apt==2.3.0+b2
